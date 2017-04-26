@@ -2,6 +2,11 @@
 
   &-left-eye {
     left: 0;
+    transition: transform 200ms ease;
+    &--wink {
+      transition: transform 200ms ease;
+      transform: scaleY(0.2);
+    }
   }
 
   &-right-eye {
